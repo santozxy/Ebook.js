@@ -1,0 +1,161 @@
+const ebooksInternacionais = 
+[
+  { 
+    id:0,
+    title:"It - A coisa",
+    capa:"https://m.media-amazon.com/images/I/51z0s3GcvwL._SX346_BO1,204,203,200_.jpg",
+    autor:"Stephen King",
+    ano:1986,
+    origem:"Internacional",
+    genero:"Terror",
+    descricao:"A história segue as experiências de sete crianças, que são aterrorizadas por uma entidade maligna que explora os medos de suas vítimas para se disfarçar enquanto caçam suas presas. It aparece principalmente na forma do palhaço Pennywise para atrair sua presa preferida: crianças pequenas.",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 9.6,
+    linkPdf:"https://kbook.com.br/wp-content/uploads/2016/08/It_-A-coisa-Stephen-King.pdf",
+    palheta: "#B22222"
+    
+  },
+  {
+    id:1,
+    title:"Conto de fadas",
+    capa:"https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788556511577/conto-de-fadas.jpg",
+    autor:"Stephen King",
+    ano:2022,
+    origem:"Internacional",
+    genero:"Terror",
+    descricao:"A história segue as experiências de sete crianças, que são aterrorizadas por uma entidade maligna que explora os medos de suas vítimas para se disfarçar enquanto caçam suas presas. It aparece principalmente na forma do palhaço Pennywise para atrair sua presa preferida: crianças pequenas.",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 9.6,
+    linkPdf:"https://kbook.com.br/wp-content/uploads/2016/08/It_-A-coisa-Stephen-King.pdf",
+    palheta: "#000080"
+  },
+  {
+    id:2,
+    title:"O iluminado",
+    capa:"https://m.media-amazon.com/images/I/51qNYKYrFHS._AC_SY780_.jpg",
+    autor:"Stephen King",
+    ano:1977,
+    origem:"Internacional",
+    genero:"Romance",
+    descricao:"A história segue as experiências de sete crianças, que são aterrorizadas por uma entidade maligna que explora os medos de suas vítimas para se disfarçar enquanto caçam suas presas. It aparece principalmente na forma do palhaço Pennywise para atrair sua presa preferida: crianças pequenas.",
+    capitulos: 0,
+    paginas: 520,
+    imdb: 9.6,
+    linkPdf:"https://kbook.com.br/wp-content/uploads/2016/08/It_-A-coisa-Stephen-King.pdf",
+    palheta: "#B22222"
+  },
+  {
+   id:3,
+    title:"Como eu era antes de você",
+    capa:"https://m.media-amazon.com/images/I/61io1vJIWFL.jpg",
+    autor:"Jojo Moyes",
+    ano:2016,
+    origem:"Internacional",
+    genero:"Romance",
+    descricao:"Aos 26 anos, Louisa Clark não tem muitas ambições. Ela mora com os pais, a irmã mãe solteira, o sobrinho pequeno e um avô que precisa de cuidados constantes desde que sofreu um derrame. Trabalha como garçonete num café, um emprego que não paga muito, mas ajuda nas despesas, e namora Patrick, um triatleta que não parece interessado nela. Não que ela se importe.Quando o café fecha as portas, Lou é obrigada a procurar outro emprego. Sem muitas qualificações, consegue trabalho como cuidadora de um tetraplégico. Will Traynor, de 35 anos, é inteligente, rico e mal-humorado. Preso a uma cadeira de rodas depois de um acidente de moto, o antes ativo e esportivo Will desconta toda a sua amargura em quem estiver por perto. Tudo parece pequeno e sem graça para ele, que sabe exatamente como dar um fim a esse sentimento. O que Will não sabe é que Lou está prestes a trazer cor a sua vida. E nenhum dos dois desconfia de que irá mudar para sempre a história um do outro.",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 9.5,
+    linkPdf:"https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxjaXRhY29lc3JlY29yZGFjb2VzZGVsaXZyb3N8Z3g6NDg3OTdkYmQxZDM3ODg0ZQ",
+    palheta: "#FF69B4"
+  },
+  {
+   id:4,
+    title:"A Cinco passos de você",
+    capa:"https://images-na.ssl-images-amazon.com/images/I/51mt9XMJc7L.jpg",
+    autor:"Mikki Daughtry e Tobias Iaconis",
+    ano:2018,
+    origem:"Internacional",
+    genero:"Romance",
+    descricao:"Stella Grant gosta de estar no controle. Ela parece ser uma adolescente típica, mas em sua rotina há listas de tarefas e inúmeros remédios que ela deve tomar para controlar a fibrose cística, uma doença crônica que impede que seus pulmões funcionem como deveriam. Suas prioridades são manter seus pais felizes e conseguir um transplante – e uma coisa não existe sem a outra. Mas para ganhar pulmões novos, Stella precisa seguir seu tratamento à risca e eliminar qualquer chance de infecção, o que significa que ela não pode ficar a menos que dois metros de distância – ou seis passos – de outros pacientes com a doença. O primeiro item é fácil para ela, mas o segundo pode se provar mais difícil do que ela esperava.",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 9.8,
+    linkPdf:"https://drive.google.com/file/d/1tOKhAWfiHJ2hYS_XLZOdA8Yun2FMc2Rh/view",
+    palheta: "#007aaf"
+  },
+];
+
+
+const ebooksNacionais = [
+  {
+   id:0,
+    title:"Dom Casmurro",
+    capa:"https://a-static.mlcdn.com.br/800x560/livro-dom-casmurro/livrariascuritiba2/457330/1a1cfa800c3c637dd07acb9a371185c3.png",
+    autor:"Machado de Assis",
+    ano:1899,
+    origem:"Nacional",
+    genero:"Romance",
+    descricao:"Em Dom Casmurro, o narrador Bento Santiago retoma a infância que passou na Rua de Matacavalos e conta a história do amor e das desventuras que viveu com Capitu, uma das personagens mais enigmáticas e intrigantes da literatura brasileira.",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 8.9,
+    linkPdf:"https://www.ic.unicamp.br/~stolfi/projects/dom-casmurro/1899/book-1899.pdf",
+    palheta: "#505d69"
+  },
+  {
+   id:1,
+    title:"Memórias póstumas de Brás Cubas",
+    capa:"https://m.media-amazon.com/images/I/51KTqmlBwEL.jpg",
+    autor:"Machado de Assis",
+    ano:1986,
+    origem:"Nacional",
+    genero:"Romance",
+    descricao:"Brás Cubas, homem abastado que nunca precisou trabalhar, escreve uma autobiografia depois de morrer. Na forma de lembranças fragmentadas, o defunto relata passagens de uma vida cheia de mesquinharias e insucessos.",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 9.6,
+    linkPdf:"https://machado.mec.gov.br/obra-completa-lista/item/download/16_ff646a924421ea897f27cf6d21e6bb23",
+    palheta: "#3a0d23"
+  },
+  {
+   id:2,
+    title:"O Alienista",
+    capa:"https://m.media-amazon.com/images/I/41ls0DpJwOL._SX331_BO1,204,203,200_.jpg",
+    autor:"Machado de Assis",
+    ano:1986,
+    origem:"Nacional",
+    genero:"Ficção",
+    descricao:"Médico, Simão Bacamarte passa a se interessar pela psiquiatria, iniciando um estudo sobre a loucura em Itaguaí, onde funda a Casa Verde - um típico hospício oitocentista -, arregimentando cobaias humanas para seus experimentos.",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 8.9,
+    linkPdf:"http://www.dominiopublico.gov.br/download/texto/bv000231.pdf" ,
+    palheta: "#4bcfbb"
+  },
+  {
+   id:3,
+    title:"A Hora da Estrela",
+    capa:"https://upload.wikimedia.org/wikipedia/pt/c/ce/A_Hora_da_Estrela.jpg",
+    autor:"Clarice Lispector",
+    ano:1985,
+    origem:"Nacional",
+    genero:"Romance",
+    descricao:"Uma jovem nordestina datilógrafa encontra um namorado em São Paulo e sonha com a felicidade.",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 8.3,
+    linkPdf:"http://colegioplante.com.br/wp-content/uploads/2016/06/A-Hora-da-Estrela-Clarice-Lispector.pdf" ,
+    palheta: "#E0FFFF"
+  },
+  {
+   id:4,
+    title:"Textos cruéis emais para serem lidos rapidamente",
+    capa:"https://m.media-amazon.com/images/I/51mfGhtNMfL.jpg",
+    autor:" Igor Pires",
+    ano:2018,
+    genero:"Poesia",
+    descricao:"Indo contra a tendência dos textos curtos e superficiais que são postados nas redes sociais, o coletivo literário Textos cruéis demais para serem lidos rapidamente (TCD) passou a produzir e compartilhar um conteúdo extenso, profundo e extremamente poético em suas páginas no Facebook e no Instagram. ",
+    capitulos: 0,
+    paginas: 0,
+    imdb: 0,
+    linkPdf:"https://napontadospes693885424.files.wordpress.com/2019/04/textos-crueis-demais-para-serem-tcd.pdf",
+    palheta: "#FF0000"
+  },
+
+]
+
+
+export {ebooksInternacionais,ebooksNacionais}
